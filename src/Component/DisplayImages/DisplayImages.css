@@ -2,14 +2,14 @@
   width: 100%;
   height: auto;
   margin: 0.5vw;
-  left: 100%;
+  transform: translate(0, -15%);
 }
 
 .horizontalPhoto {
   width: auto;
   height: 100%;
   margin: 0.5vw;
-  left: 100%;
+  transform: translate(-15%, -5%);
 }
 
 .crop {

@@ -1,0 +1,64 @@
+.verticalPhotoSelected {
+  width: 100%;
+  height: auto;
+  margin: 0.5vw;
+  transform: translate(0, -15%);
+}
+
+.horizontalPhotoSelected {
+  width: auto;
+  height: 100%;
+  margin: 0.5vw;
+  transform: translate(-15%, 0);
+}
+
+.cropSelected {
+  width: 30vw;
+  height: 30vw;
+  overflow: hidden;
+  display: inline-block;
+}
+
+/* .postDesign {
+  position: relative;
+} */
+
+.postDesign {
+  position: relative;
+  .logoDisplayTop {
+    max-width: 9vw;
+    max-height: 6vw;
+    position: absolute;
+    z-index: 10;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .logoDisplayMiddle {
+    max-width: 9vw;
+    max-height: 6vw;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .logoDisplayBottom {
+    max-width: 9vw;
+    max-height: 6vw;
+    position: absolute;
+    z-index: 10;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .textDisplay {
+    color: white;
+    font-size: 3vw;
+    position: absolute;
+    z-index: 10;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
