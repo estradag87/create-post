@@ -1,0 +1,20 @@
+.verticalPhoto {
+  width: 100%;
+  height: auto;
+  margin: 0.5vw;
+  left: 100%;
+}
+
+.horizontalPhoto {
+  width: auto;
+  height: 100%;
+  margin: 0.5vw;
+  left: 100%;
+}
+
+.crop {
+  width: 10vw;
+  height: 10vw;
+  overflow: hidden;
+  display: inline-block;
+}

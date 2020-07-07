@@ -1,0 +1,24 @@
+.verticalPhoto {
+  width: 100%;
+  height: auto;
+  margin: 0.5vw;
+  left: 100%;
+}
+
+.horizontalPhoto {
+  width: auto;
+  height: 100%;
+  margin: 0.5vw;
+  left: 100%;
+}
+
+.cropSelected {
+  width: 30vw;
+  height: 30vw;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.postDesign {
+  display: inline-block;
+}
